@@ -3,7 +3,7 @@ import logoTitle from '../../assets/images/logo-alif.png'
 import './index.scss'
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-// import Logo from './Logo';
+import Logo from './Logo';
 import Loader from 'react-loaders';
 
 const Home =() => {
@@ -38,7 +38,7 @@ const Home =() => {
                     <Link to='/contact' className='flat-button' >CONTACT ME</Link>
 
                 </div>
-                {/* <Logo/> */}
+                <Logo/>
             </div>
 
             <Loader type='pacman'/>
